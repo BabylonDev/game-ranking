@@ -5,7 +5,7 @@ function router() {
   router.use("/", require("./home"));
   router.use("/about", require("./about"));
   router.use("/toprank", require("./toprank"));
-  router.use("/portfolio", require("./portfolio"));
+  
   return router;
 }
 
