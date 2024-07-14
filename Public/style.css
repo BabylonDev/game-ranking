@@ -58,15 +58,15 @@ body{
    
     text-decoration: underline;
     color: rgb(0, 153, 255);
+    
 } 
 ul li ul.dropdown li {
     display: block;
 }
 ul li ul.dropdown {
-    width: 100%;
+    width: 50%;
     background:rgb(0, 153, 255); 
     position: absolute;
-    z-index: 999;
     display: none;
 }
 
@@ -103,6 +103,7 @@ body{
     text-decoration: underline;
     background: rgb(27, 41, 56);
     color-scheme: light;
+    
 } 
 
 ul li ul.dropdown {

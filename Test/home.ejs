@@ -16,14 +16,16 @@
         .img_king
         {
             float: right;
+            left: 77%;
+            width: 19%;
+            position: absolute; 
             
         }
     </style>
-
     </head>
-    <body style="background-color: rgb(23, 27, 31);">>
+    <body style="background-color:rgb(23, 27, 31);">
     <header style="background-color:rgb(23, 27, 31);">
-        <img class="img_king" src="/media/photos/king.jpg" height="100"> 
+       <img class="img_king" src="/media/photos/king.jpg" height="90">
         <div class ="upbar">
         <ur>
         <li><a href="/">Games</a></li>
@@ -33,29 +35,20 @@
         <li><a href="/help">Help</a></li>
         </ur>
         </div>
-        <br>
+      
 
         <div class ="navbar">
     
             <ul>
                 <li>
-                    <a href="/">HOME</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Featured</a></li>
-                        <li><a href="#">Discovery Queue</a></li>
-                        <li><a href="#">Wishlist</a></li>
-                        <li><a href="#">Point Shop</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Stats</a></li>
-               </ul>
-               </li>
+               <a href="/">HOME</a>
                <a href="/topics">TOPICS</a>
                <a href="/community">COMMUNITY</a>
                <a href="/toprank">TOP RANKS</a>
                </ul>
                 
     <form>
-       
+       <br>
         <div class="search">
         <span class="search-icon material-symbols-outlined">Search</span>
         <input class="search-input" type="Search:" placeholder="Search">
@@ -63,7 +56,36 @@
         </div>
         
         </form>
-    
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        div img{
+            width: 400px;
+            height: 300px;
+            border: 2px solid #ff3d0036;
+            border-radius: 13px;
+            box-shadow: 4px 7px 7px 0px #00000042 ;
+            cursor: pointer;
+            margin: 10px;
+            transition: 400ms;
+        }
+        div img:hover{
+            filter: grayscale();
+            transform: scale(1.03);
+        }
+    </style>
+    <div>
+        <img src="/media/photos/dota2.jpg" alt="">
+        <img src="/media/photos/apexlegends.jpg" alt="">
+        <img src="/media/photos/cs2.jpg" alt="">
+        <img src="/media/photos/league.jpg" alt="">
+        <img src="/media/photos/valorant.jpg" alt="">
+        <img src="/media/photos/minecraft.jpg" alt="">
+        </div>
     
     
     </header>
