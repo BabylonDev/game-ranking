@@ -81,13 +81,13 @@ body{
 .upbar ul{
     list-style: none;
     background: rgb(27, 41, 56);
-    padding: 0;
-    margin: 0;
- 
+    
 
 }
 .upbar li{
     display: inline-block;
+    left: 8%;
+    position: relative;
 }
 .upbar a{
     text-decoration: none;
