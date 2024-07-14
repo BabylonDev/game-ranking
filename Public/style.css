@@ -30,10 +30,11 @@ body{
 }
 .navbar ul{
     list-style: none;
-    background: rgb(27, 41, 56);
-    padding: 0;
-    margin: 0;
-   word-spacing:0px;
+    background: rgb(23, 27, 31);
+    right: 1%;
+    height: 80%;
+  position: relative;
+    
   
 }
 .navbar li{
@@ -114,7 +115,7 @@ ul li ul.dropdown {
     display: none;
 }
 ul li a:hover {
-background: #112c66;
+    background: rgb(27, 41, 56);
 }
 ul li:hover ul.dropdown {
     display: block;
