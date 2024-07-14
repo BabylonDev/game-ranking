@@ -3,13 +3,14 @@
 
     width: max-content;
     display: flex;
-    align-items: right;
+ 
     padding: var(--padding);
     border-radius: 3px;
     background: #f6f6f6;
-    margin-top: 50px;
+    top: 100%;
     margin-right: 45px;
-    float: right;
+    right: 30%;
+    position: relative;
 }
 
 .search-input {
@@ -31,7 +32,7 @@ body{
 .navbar ul{
     list-style: none;
     background: rgb(23, 27, 31);
-    left: 3%;
+    left: 8%;
     height: 80%;
   position: relative;
     
@@ -121,3 +122,10 @@ ul li:hover ul.dropdown {
     display: block;
 }
 
+footer p {
+    font-size: 10px;
+    left: 600%;
+    height: 50%;
+  position: relative;
+    color: antiquewhite;
+}
