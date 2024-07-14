@@ -31,7 +31,7 @@ body{
 .navbar ul{
     list-style: none;
     background: rgb(23, 27, 31);
-    right: 1%;
+    left: 3%;
     height: 80%;
   position: relative;
     
