@@ -31,7 +31,7 @@ body{
 }
 .navbar ul{
     list-style: none;
-    background: rgb(23, 27, 31);
+   
     left: 8%;
     height: 80%;
   position: relative;
@@ -45,7 +45,7 @@ body{
 }
 .navbar a{
     text-decoration: none;
-    color: #ccc;
+    color: #ffffff;
     width: 500px;
     display: 25px 250px;
     
@@ -92,7 +92,7 @@ body{
 }
 .upbar a{
     text-decoration: none;
-    color: #ccc;
+    color: #ffffff;
     width: 100px;
     display: 25px 250px;
     font-weight: bold;
