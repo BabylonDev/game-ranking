@@ -132,9 +132,11 @@ footer p {
 .img_king
 {
     float: right;
-    left: 60%;
+    left: 57%;
     width: 19%;
-    position: absolute; 
+    object-fit: contain;
+    position: absolute;
+    display: flex; 
     
 }
 .container{
@@ -145,6 +147,7 @@ footer p {
     height: 100%;
     animation: animate 20s ease-in-out infinite;
     background-size: cover;
+    display:flex;
     
 }
 .outer{
