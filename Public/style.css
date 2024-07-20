@@ -145,9 +145,10 @@ footer p {
     top: 20%;
     width: 100%;
     height: 100%;
-    animation: animate 20s ease-in-out infinite;
-    background-size: cover;
+    animation: animate 15s ease-in-out infinite;
+    background-size: 100% 100%;
     display:flex;
+    object-fit: contain;
     
 }
 .outer{
@@ -157,6 +158,7 @@ footer p {
     width: 100%;
     height: 100vh;
     background: rgba(0,0,0,0,5);
+    object-fit: contain;
 }
 @keyframes animate{
     0%,100%{
