@@ -124,7 +124,7 @@ ul li:hover ul.dropdown {
 
 footer p {
     font-size: 10px;
-    left: 590%;
+    right: 25%;
     height: 50%;
   position: relative;
     color: antiquewhite;
@@ -132,7 +132,7 @@ footer p {
 .img_king
 {
     float: right;
-    left: 57%;
+    left: 52%;
     width: 19%;
     object-fit: contain;
     position: absolute;
@@ -148,7 +148,7 @@ footer p {
     animation: animate 15s ease-in-out infinite;
     background-size: 100% 100%;
     display:flex;
-    object-fit: contain;
+    
     
 }
 .outer{
